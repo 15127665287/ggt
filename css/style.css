@@ -1,0 +1,250 @@
+
+body{
+	overflow:hidden;
+	overflow-y:auto;
+}
+
+.nav2{
+	position: absolute;
+	left:0; top:6.5rem;
+	z-index: 1;
+} 
+
+.nav2 a{
+	display: inline-block;
+	width: 11rem;
+	line-height: 4.35rem;
+	text-align: center;
+	color:#000;
+	font-size: 0.8rem;
+}
+.nav2 a:hover{
+	color:#F6AA00;
+	
+}
+.nav2 .a1:hover{
+	background-image: url(../images/f1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav2 .a2:hover{
+	background-image: url(../images/f2.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav2 .a3:hover{
+	background-image: url(../images/f3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav2 .a4:hover{
+	background-image: url(../images/f4.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav2 .a5:hover{
+	background-image: url(../images/f5.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav2 .a6:hover{
+	background-image: url(../images/f6.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.nav2 li{
+	width: 11rem;
+	height: 4.35rem;
+}
+
+
+ .content{
+ 	position: absolute;
+ 	left:0; top:0;
+ 	z-index: 2;
+ 	background-color: #fff;
+ 	transition: 1s;
+ }
+
+ .logo{
+ 	height: 2.7rem;
+ 	box-shadow: 0px 0px 0.5rem #D0D0D0;
+ 	background: #fff;
+ 	 position: absolute;
+ 	 left:0; top:0;
+ 	 z-index:3;
+ 	transition: 1s;
+ }
+ .logo .img1{
+ 	margin:0.9rem 4.9rem 0.83rem 0.9rem;
+ 	width: 1.05rem;
+ 	height: 1rem;
+ 	display: inline-block;
+ }
+ .logo .img2{
+ 	width: 6.75rem;
+ 	height: 2.15rem;
+ 	display: inline-block;
+ }
+
+.banner{
+	height: 10rem;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-top: 3.25rem;
+	margin-bottom: 2rem;
+}
+
+.banner ul{
+	position: absolute;
+	left:0; top:0;
+	width: 40rem;
+	transition: 1s;
+}
+.banner li{
+	float: left;
+}
+.banner .img1,.banner .img2{
+	width: 16rem;
+	height: 9.3rem;
+}
+
+.top .p1{
+	font-size: 0.75rem;
+	color:#F6AA00;
+}
+.top .p2{
+	font-size: 0.4rem;
+	color:#F6AA00;
+}
+.top .p3 a{
+	font-size: 0.75rem;
+	color:#F6AA00;
+}
+.top{
+	margin-bottom: 1.375rem;
+}
+
+.yewu{
+	margin-bottom: 1rem;
+}
+.yinying .div2{
+	margin-bottom: 0.9rem;
+	float: left;
+	margin-right: 0.3rem;
+	box-shadow: 0.025rem 0.5rem 1.25rem #F3F3F3;
+	border-radius: 20px;
+	width: 3.25rem;
+	height: 1.775rem;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.yinying .div2 a{
+	width: 3.25rem;
+	height: 1.775rem;
+	display: inline-block;
+}
+.yinying .div2 img{
+	width: 3.25rem;
+	height: 1.775rem;
+}
+
+.guanyu .img .p1{
+	font-size: 0.55rem;
+	margin-top: 0.9rem;
+	line-height: 1.05rem;
+	margin-bottom: 2rem;
+}
+.guanyu .img img{
+	width: 16.1rem;
+	height: 8.275rem;
+}
+
+.tu{
+	width: 7.6rem;
+	height: 4.75rem;
+	margin-bottom: 0.65rem;
+	overflow: hidden;
+}
+.tu a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	box-shadow: 0px 0.15rem 0.25rem #D0D0D0;
+	border-radius: 26px;
+	transition: .5s;
+	box-sizing: border-box;
+}
+.tu .img1{
+	width: 8.6rem;
+	height: 4.75rem;
+	display: inline-block;
+}
+
+.tu .img2{
+	position: absolute;
+	top:40%; left:42%;
+	width: 1.05rem;
+	height: 1.05rem;
+}
+
+.zi{
+	font-size: 0.55rem;
+}
+.zi .p2{
+	margin-top: 0.25rem;
+}
+
+.mv1{
+	margin-top: 1.05rem;
+}
+.mv2{
+	margin-left: 0.3rem;
+}
+.yanggaung{
+	margin-right: 0.3rem;
+}
+
+
+.hezuo{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.hezuo .p4{
+	font-size: 0.55rem;
+	margin-bottom: 1.1rem;
+}
+.hezuo img{
+	width: 16rem;
+	height: 3.75rem;
+}
+.hezuo .top{
+	margin-bottom: 1.2rem;
+}
+
+.footer{
+	background-color: #363838;
+	height: 4rem;
+}
+.footer p{
+	font-size: 12px;
+	text-align: center;
+	color:#FFFFFF;
+}
+.footer .p1{
+	padding-top: 1rem;
+}
+.footer span{
+	padding:0 0.3rem;
+}
+.footer .p3 a{
+	color:#FFFFFF;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: inline-block;
+}
